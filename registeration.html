@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register yourself</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            /* float: center; */
+        }
+
+        .container {
+            width: 40%;
+            border: 2px solid black;
+            background-color: aquamarine;
+            float: left;
+            height: 500px;
+            margin: 5% 30%;
+            font-style: italic;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-style: italic;
+            text-align: center;
+        }
+
+        #options {
+            font-style: oblique;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form action="backend.php">
+        <div class="container">
+            <h1>Welcome to board </h1>
+            <div>
+                <label for="firstname"> FIRST NAME</label><br>
+                <input type="text" name="firstname" id="firstname">
+            </div>
+            <br>
+            <div>
+                <label for="secondname">LAST NAME</label><br>
+                <input type="text" name="second name" id="secondname">
+            </div><br>
+
+            <div>
+                <label for="mail">EMAIL</label> <br>
+                <input type="email" name="your mail" id="mail">
+            </div><br>
+            <label for="year of grad">YEAR OF GRADUATION</label><br>
+            <select name="year of grad" id="year of grad">
+                <option value="2022">2022</option>
+                <option value="2022">2023</option>
+                <option value="2022">2024</option>
+                <option value="2022">2025</option>
+                <option value="2022">2026</option>
+                <option value="2022">2027</option>
+            </select><br>
+            <br>
+            <label for="contact no"> CONTACT NO</label> <br>
+            <input type="text" name="contact no" id="contact no"><br> <br>
+            <div id="options">
+                <label for="add college"> choose your college</label>
+                <select name="add college" id="add college">
+                    <option value="GL BAJAJ "> GL BAJAJ</option>
+                    <option value="GALGOTIA COLLEGE OF ENGINEERING">GALGOTIA COLLEGE OF ENGINEERING</option>
+                    <option value="AMITY UNIVERSITY">AMITY UNIVERSITY</option>
+                    <option value="GNIOT">GNIOT</option>
+                    <option value="SHARDA UNIVERSITY">SHARDA UNIVERSITY</option>
+                    <option value="	I.T.S.Engineering College"> I.T.S.Engineering College</option>
+                    <option value="	Innovative College Of Pharmacy"> Innovative College Of Pharmacy</option>
+                    <option value="	Greater Noida Institute Of Technology"> Greater Noida Institute Of Technology(Mba
+                        Institute)</option>
+
+                    <option value="LLOYD COLLEGE">LLOYD COLLEGE</option>
+
+                    <option value="I.T.S. Engineering College">I.T.S. Engineering College</option>
+
+                    <option value="KCC Institute of Technology & Management">KCC Institute of Technology & Management
+                    </option>
+                    <option value="IILM College of Engineering & Technology">IILM College of Engineering & Technology
+                    </option>
+                    <option value="United College of Engineering and Research,Greater Noida">United College of
+                        Engineering and Research,Greater Noida</option>
+                    <option value="Noida Institute of Engineering and Technology">Noida Institute of Engineering and
+                        Technology</option>
+                    <option value="	B.B.S Institute Of Pharmaceutical & Allied Sciences"> B.B.S Institute Of
+                        Pharmaceutical & Allied Sciences</option>
+                    <option value="Apeejay Institute Of Technology, School Of Architecture & Planning,">Apeejay
+                        Institute Of Technology</option>
+
+                    <option value="IEC College Of Engineering & Technology">IEC College Of Engineering & Technology
+                    </option>
+                    <option value="IIMT COLLEGE">IIMT COLLEGE</option>
+                    <option value="Accurate Institute of Management and Technology.">Accurate Institute of Management
+                        and Technology.</option>
+
+
+                </select>
+
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
